@@ -1,0 +1,108 @@
+#styleBox, #weddingCard {
+    border: none;
+}
+
+#weddingCard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 700px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: url('https://thumbs.dreamstime.com/b/abstract-curve-illustration-background-frame-structure-40690385.jpg');
+    /*overflow: auto; */
+}
+
+.textBox {
+    position: absolute;
+    cursor: move;
+    border: none;
+    background-color: transparent;
+}
+
+#styleBox {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    width: 300px;
+    border: 1px none;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.input-group {
+    margin-bottom: 25px;
+    font-size: 21px; 
+    font-weight: bold; 
+}
+
+
+#color, #font, #size {
+    margin-bottom: 15px;
+    size: 20px;
+}
+
+
+
+#styleBox input[type="color"],
+#styleBox select,
+#styleBox input[type="number"] {
+    width: 100%; 
+    padding: 3px; 
+    margin-top: 8px; 
+    box-sizing: border-box;
+}
+
+#header {
+    position:absolute;
+    top: 50%;
+    left: 5%; /* Adjust the left position as needed */
+    transform: translateY(-50%);
+    text-align: center;
+    color: #333; /* Text color */
+    
+}
+
+#header h1 {
+    font-size: 50px; /* Font size */
+    font-weight: bold; /* Font weight */
+    font-style: italic; /* Italic font style */
+    margin: 0;
+}
+
+/* CSS */
+#addTextBox {
+  background-color: rgb(234, 168, 76);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#addTextBox:hover,
+#addTextBox:focus {
+  background-color: #F082AC;
+}

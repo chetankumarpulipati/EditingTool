@@ -1,2 +1,1 @@
-# EditingTool
-Celebrare Internship
+# WeddingCardDesign
