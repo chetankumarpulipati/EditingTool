@@ -12,7 +12,7 @@
     padding: 20px;
     box-sizing: border-box;
     background-image: url('https://thumbs.dreamstime.com/b/abstract-curve-illustration-background-frame-structure-40690385.jpg');
-    /*overflow: auto; */
+
 }
 
 .textBox {
@@ -60,21 +60,21 @@
 #header {
     position:absolute;
     top: 50%;
-    left: 5%; /* Adjust the left position as needed */
+    left: 5%; 
     transform: translateY(-50%);
     text-align: center;
-    color: #333; /* Text color */
+    color: #333; 
     
 }
 
 #header h1 {
-    font-size: 50px; /* Font size */
-    font-weight: bold; /* Font weight */
-    font-style: italic; /* Italic font style */
+    font-size: 50px; 
+    font-weight: bold; 
+    font-style: italic; 
     margin: 0;
 }
 
-/* CSS */
+
 #addTextBox {
   background-color: rgb(234, 168, 76);
   border-radius: 8px;
